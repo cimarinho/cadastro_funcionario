@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  mongo: 
+    container_name: mongoDB1
+    image: mongo:latest
+    volumes:
+      - /var/lib/mongodb:/data/db
+    ports:
+      - "27017:27017"
+    command: mongod --port 27017

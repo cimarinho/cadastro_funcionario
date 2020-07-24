@@ -1,0 +1,7 @@
+
+employee:
+  physicalDisability: "physicalDisability é um campo obrigatório"
+  name: "name é um campo obrigatório"
+  birthday: "birthday é um campo obrigatório"
+  experienceTime: "experienceTime é um campo obrigatório"
+  salary: "salary é um campo obrigatório"
